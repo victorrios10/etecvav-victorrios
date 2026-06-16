@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+    <title bgcolor="#f0f8ff">O que é CSS</title> 
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #dbeafe, #f0f8ff);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: #005fa3;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #0077cc;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .caixa {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        code {
+            background-color: #eee;
+            padding: 5px;
+            border-radius: 5px;
+            display: block;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0077cc;
+            color: white;
+        }
+
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1 bgcolor="#f0f8ff">O que é CSS?</h1>
+</header>
+
+<nav>
+    <a href="#definicao">Definição</a>
+    <a href="#funcao">Função</a>
+    <a href="#vantagens">Vantagens</a>
+    <a href="#exemplo">Exemplo</a>
+    <a href="#tabela">Comparação</a>
+</nav>
+
+<main>
+<div class="container">
+
+    <section id="definicao" class="caixa">
+        <h2>Definição</h2>
+        <p>
+            CSS (Cascading Style Sheets) é uma linguagem utilizada para definir a aparência de páginas HTML.
+            Com o CSS, é possível controlar cores, fontes, espaçamentos, layouts e até animações.
+        </p>
+        <p>
+            Ele funciona em conjunto com o HTML, que é responsável pela estrutura da página.
+        </p>
+    </section>
+
+    <section id="funcao" class="caixa">
+        <h2>Para que serve o CSS?</h2>
+        <ul>
+            <li>Deixar o site visualmente bonito</li>
+            <li>Organizar o layout da página</li>
+            <li>Melhorar a experiência do usuário</li>
+            <li>Criar responsividade (adaptar para celular)</li>
+        </ul>
+    </section>
+
+    <section id="vantagens" class="caixa">
+        <h2>Vantagens do CSS</h2>
+        <ul>
+            <li>Separação entre conteúdo e design</li>
+            <li>Reutilização de estilos</li>
+            <li>Facilidade de manutenção</li>
+            <li>Carregamento mais rápido do site</li>
+        </ul>
+    </section>
+
+    <section id="exemplo" class="caixa">
+        <h2>Exemplo de CSS</h2>
+        <p>Veja um exemplo simples de estilização:</p>
+
+        <code>
+            p { <br>
+            &nbsp;&nbsp;color: blue; <br>
+            &nbsp;&nbsp;font-size: 18px; <br>
+            }
+        </code>
+
+        <p>
+            Nesse exemplo, todos os parágrafos ficarão com a cor azul e tamanho maior.
+        </p>
+    </section>
+
+    <section id="tabela" class="caixa">
+        <h2>Diferença entre HTML e CSS</h2>
+
+        <table>
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+            <tr>
+                <td>Define a estrutura</td>
+                <td>Define o estilo</td>
+            </tr>
+            <tr>
+                <td>Usa tags</td>
+                <td>Usa seletores</td>
+            </tr>
+            <tr>
+                <td>Conteúdo da página</td>
+                <td>Aparência da página</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="caixa">
+        <h2>Conclusão</h2>
+        <p>
+            O CSS é essencial para o desenvolvimento web moderno. Sem ele, os sites seriam simples e sem estilo.
+            Com o CSS, é possível criar páginas bonitas, organizadas e profissionais.
+        </p>
+    </section>
+
+</div>
+</main>
+
+<footer>
+    <p>Nicolas de Almeida Ferreira </p>
+       <p> Victor Hugo da Silva Rios </p> 
+</footer>
+
+</body>
+</html>
